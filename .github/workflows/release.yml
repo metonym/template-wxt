@@ -17,7 +17,7 @@ jobs:
         run: bun install
 
       - name: Build extension
-        run: bun run build
+        run: bun run zip
 
       - uses: ncipollo/release-action@v1
         with:

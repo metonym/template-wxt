@@ -14,9 +14,9 @@
     "postinstall": "wxt prepare"
   },
   "devDependencies": {
-    "@wxt-dev/module-svelte": "^2.0.2",
-    "svelte": "^5.16.0",
-    "typescript": "^5.7.2",
-    "wxt": "^0.19.22"
+    "@wxt-dev/module-svelte": "^2.0.3",
+    "svelte": "^5.19.9",
+    "typescript": "^5.7.3",
+    "wxt": "^0.19.26"
   }
 }

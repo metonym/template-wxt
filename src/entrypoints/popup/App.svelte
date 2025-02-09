@@ -1,6 +1,6 @@
 <script lang="ts">
-  import svelteLogo from "../../assets/svelte.svg";
-  import Counter from "../../lib/Counter.svelte";
+import svelteLogo from "../../assets/svelte.svg";
+import Counter from "../../lib/Counter.svelte";
 </script>
 
 <main class="flex flex-col items-center justify-center gap-4 p-8">

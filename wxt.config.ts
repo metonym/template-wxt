@@ -6,6 +6,6 @@ export default defineConfig({
   srcDir: "src",
   modules: ["@wxt-dev/module-svelte"],
   vite: () => ({
-    plugins: [tailwindcss()]
-  })
+    plugins: [tailwindcss()],
+  }),
 });

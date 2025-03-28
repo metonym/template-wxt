@@ -13,9 +13,5 @@ import Counter from "@/lib/Counter.svelte";
     </a>
   </div>
   <h1>WXT + Svelte</h1>
-  <Counter
-    count={10}
-    onmouseenter={() => console.log("mouse entered")}
-    onclick={() => console.log("clicked")}
-  />
+  <Counter count={10} onmouseenter={() => console.log("mouse entered")} />
 </main>

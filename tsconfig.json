@@ -1,6 +1,7 @@
 {
   "extends": "./.wxt/tsconfig.json",
   "compilerOptions": {
+    "erasableSyntaxOnly": true,
     "useDefineForClassFields": true
   }
 }

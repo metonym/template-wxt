@@ -14,6 +14,13 @@ After installing Bun, run the following command to install the project dependenc
 bun install
 ```
 
+**Quick start**
+
+Use `bun create` to quickly scaffold a new project. This will download the repo, install dependencies, and initialize `.git`.
+
+```bash
+bun create metonym/template-wxt <folder-name>
+```
 ## Usage
 
 ### Development

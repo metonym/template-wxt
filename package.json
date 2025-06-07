@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@tailwindcss/vite": "^4.1.5",
+    "@tailwindcss/vite": "^4.1.8",
     "@wxt-dev/module-svelte": "^2.0.3",
-    "svelte": "^5.28.2",
-    "tailwindcss": "^4.1.5",
+    "svelte": "^5.33.17",
+    "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
-    "wxt": "^0.20.6"
+    "wxt": "^0.20.7"
   }
 }

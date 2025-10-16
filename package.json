@@ -15,7 +15,7 @@
     "format": "bunx biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.2.6",
     "@tailwindcss/vite": "^4.1.14",
     "@wxt-dev/module-svelte": "^2.0.4",
     "svelte": "^5.40.1",

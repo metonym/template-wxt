@@ -12,14 +12,15 @@
     "zip": "wxt zip",
     "zip:firefox": "wxt zip -b firefox",
     "postinstall": "wxt prepare",
-    "format": "bunx biome check --write ."
+    "lint": "bunx biome check .",
+    "lint:fix": "bunx biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.6",
-    "@tailwindcss/vite": "^4.1.14",
+    "@biomejs/biome": "2.3.5",
+    "@tailwindcss/vite": "^4.1.17",
     "@wxt-dev/module-svelte": "^2.0.4",
-    "svelte": "^5.40.1",
-    "tailwindcss": "^4.1.14",
+    "svelte": "^5.43.6",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3",
     "wxt": "^0.20.11"
   }

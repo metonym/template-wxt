@@ -16,7 +16,7 @@
     "lint:fix": "bunx biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.5",
+    "@biomejs/biome": "2.3.8",
     "@tailwindcss/vite": "^4.1.17",
     "@wxt-dev/module-svelte": "^2.0.4",
     "svelte": "^5.43.6",

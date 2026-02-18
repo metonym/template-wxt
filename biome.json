@@ -1,8 +1,10 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.0/schema.json",
-  "files": {
-    "includes": ["src/**/*", "*.ts", "*.json"],
-    "ignoreUnknown": false
+  "$schema": "https://biomejs.dev/schemas/2.4.2/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "defaultBranch": "master"
   },
   "formatter": {
     "attributePosition": "multiline",

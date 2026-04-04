@@ -13,5 +13,8 @@ import Counter from "@/lib/Counter.svelte";
     </a>
   </div>
   <h1>WXT + Svelte</h1>
-  <Counter count={10} onmouseenter={() => console.log("mouse entered")} />
+  <Counter count={10} onmouseenter={() => {
+    // biome-ignore lint/suspicious/noConsole: test
+    console.log("mouse entered")
+  }} />
 </main>

@@ -7,6 +7,7 @@
     "defaultBranch": "master"
   },
   "formatter": {
+    "enabled": true,
     "attributePosition": "multiline",
     "indentStyle": "space"
   },

@@ -1,15 +1,15 @@
 <script lang="ts">
-import type { HTMLButtonAttributes } from "svelte/elements";
+  import type { HTMLButtonAttributes } from "svelte/elements";
 
-type Props = Omit<HTMLButtonAttributes, "onmouseleave"> & {
-  count?: number;
-};
+  type Props = Omit<HTMLButtonAttributes, "onmouseleave"> & {
+    count?: number;
+  };
 
-let { count = 0, ...rest }: Props = $props();
+  let { count = 0, ...rest }: Props = $props();
 
-const increment = () => {
-  count += 1;
-};
+  const increment = () => {
+    count += 1;
+  };
 </script>
 
 <button
